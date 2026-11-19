@@ -1,0 +1,3 @@
+# Changes to CI, repository settings files and the scripts CI runs need the maintainer's review.
+/.github/ @maanya145
+/scripts/ @maanya145

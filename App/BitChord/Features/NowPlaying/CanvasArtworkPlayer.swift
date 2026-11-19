@@ -251,6 +251,11 @@ private struct PlayerCanvasClipView: UIViewRepresentable {
     }
 
     static func dismantleUIView(_ view: PlayerCanvasUIView, coordinator: ()) {
+        // SwiftUI is destroying this view's state: a callback that sets it now traps on exclusive
+        // access. The view's `.onDisappear` already tells the parent the clip is gone.
+        view.onRendered = { _ in }
+        view.onAspect = { _ in }
+        view.onFrame = nil
         view.tearDown()
     }
 }

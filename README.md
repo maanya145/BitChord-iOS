@@ -228,7 +228,7 @@ Thanks also to the [contributors to BitChord for Android](https://github.com/kus
 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) lists every third-party work in this repository or linked into the app, with its licence. In short:
 
 - [AMSMB2](https://github.com/amosavian/AMSMB2), which wraps libsmb2 (LGPL-2.1), for SMB shares.
-- [ONNX Runtime](https://github.com/microsoft/onnxruntime-swift-package-manager) (MIT) to run the Automix models.
+- [ONNX Runtime](https://onnxruntime.ai) (MIT) to run the Automix models. Its Swift package is kept in `Vendor/`.
 - [Orchard](https://github.com/SFG5453/Orchard) by SFG545. The Automix analyzer and several Automix files are ported from Orchard through BitChord for Android and stay under AGPL-3.0.
 - The Beat This! beat model by CPJKU and the Open-Unmix vocals model by Inria and SigSep.
 - Stream resolution follows NewPipe Extractor, InnerTubeX and zemer-cipher; the Discord integration ports Kizzy; the artwork colours port AndroidX Palette and ColorUtils.

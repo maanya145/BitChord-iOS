@@ -64,7 +64,7 @@ The LGPL-2.1 lets you replace these libraries with a modified version. The full 
 
 ### ONNX Runtime
 
-- Project: [onnxruntime-swift-package-manager](https://github.com/microsoft/onnxruntime-swift-package-manager) 1.24.2 by Microsoft, which downloads the prebuilt ONNX Runtime C library (`pod-archive-onnxruntime-c-1.24.2.zip`).
+- Project: onnxruntime-swift-package-manager 1.24.2 by Microsoft (revision `b7fb7f7d`), which downloads the prebuilt ONNX Runtime C library (`pod-archive-onnxruntime-c-1.24.2.zip`) from download.onnxruntime.ai. Microsoft removed its GitHub repository in November 2026, so an unmodified copy of the package is kept in `Vendor/onnxruntime-swift-package-manager`.
 - Licence: MIT (the package's `LICENSE` file and the `LICENSE` file inside the binary archive).
 - Used in: `Automix`, to run the two models above.
 
